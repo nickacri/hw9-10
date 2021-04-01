@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ pageTitle }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+</head>
+
+  <body>
+      <main>
+        <nav>
+          <a href="http://127.0.0.1:5000">Home</a>
+          <a href="estimate">Estimate</a>
+          <a href="about">About</a>
+        </nav>
+      </main>
+      {% block body %}
+
+	  {% endblock %}
+
+ </body>
+
+</html>
