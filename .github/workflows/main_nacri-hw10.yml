@@ -32,4 +32,4 @@ jobs:
       with:
         app-name: 'nacri-hw10'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_903e14a6630847d0aa44f06e424c20e8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9ffd166a619a4051b1d4c0daa304c5d9 }}
