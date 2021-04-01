@@ -7,23 +7,25 @@
    {% block body %}
 
      <h2>Cost Estimate Calculator</h2>
+     <p>Enter your measurments in inches!</p>
         <form action="/add" method="POST">
             <label for="radius">
                 Radius:
-                <input type="text" id="radius" name ="radius" required autofocus>
+                <input type="text" id="radius" name ="radius" style="border-width: 2px; border-color: black;" required autofocus>
             </label>
             <br><br>
                 <label for="height">
                     Height:
-                    <input type="text" id="height" name="height" required>
+                    <input type="text" id="height" name="height" style="border-width: 2px; border-color: black;"  required>
                 </label>
             <br><br>
-                <input type="submit" value="Calculate">
+                <input style="background-color:#383838; color:white; " type="submit" value="Calculate">
     
 
     </form>
     {% if estimate %}
          <p> The total estimate came out to: {{ estimate }}</p>
+    
     {% endif %}
 
 

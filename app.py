@@ -13,8 +13,9 @@ def calc(radius, height):
     mCost = 25 * sqFeet
     lCost = 15 * sqFeet
     totalCost = mCost + lCost
-    print(totalCost)
-    return totalCost
+    currency = "${:,.2f}".format(totalCost)
+    print(currency)
+    return currency
 
 @app.route('/')
 def index():

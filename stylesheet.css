@@ -5,6 +5,15 @@ main {
   margin: 10px;
 }
 
+body {
+  padding: 10px;
+  margin: 10px;
+}
+
+home {
+  text-align: center;
+}
+
 footer {
   padding: 10px;
   margin: 10px;
